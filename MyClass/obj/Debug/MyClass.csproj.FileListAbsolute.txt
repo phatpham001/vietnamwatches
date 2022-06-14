@@ -1,0 +1,16 @@
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\MyClass.dll.config
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\MyClass.dll
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\MyClass.pdb
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\EntityFramework.dll
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\EntityFramework.xml
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\obj\Debug\MyClass.csproj.AssemblyReference.cache
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\obj\Debug\MyClass.csproj.CopyComplete
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\obj\Debug\MyClass.dll
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\obj\Debug\MyClass.pdb
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\PagedList.dll
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\PagedList.Mvc.dll
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\PagedList.xml
+D:\TTTN\PhamMinhPhat_2119110149\MyClass\bin\Debug\PagedList.Mvc.xml

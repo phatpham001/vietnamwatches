@@ -1,0 +1,11 @@
+﻿@model IEnumerable<MyClass.Models.Category>
+
+<div class="product-filters">
+    <ul style="text-align:left;">
+        <li class="active" data-filter="*">Tất cả sản phẩm</li>
+        @foreach (var category in Model)
+        {
+            <li data-filter="@category.Id" style="display: table; ">@category.Name</li>
+        }
+    </ul>
+</div>
