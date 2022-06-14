@@ -124,7 +124,7 @@ namespace VietnamWatches.Controllers
             }
             else
             {
-                ViewBag.ConfigAddress = "";
+                ViewBag.ConfigAddress = "Địa Chỉ";
             }
             Config configPhone = configDAO.getRowByValue("Số Điện Thoại");
             if (configPhone != null)
@@ -133,7 +133,7 @@ namespace VietnamWatches.Controllers
             }
             else
             {
-                ViewBag.ConfigPhone = "";
+                ViewBag.ConfigPhone = "Số Điện Thoại";
             }
             Config configInfo = configDAO.getRowByValue("Giới Thiệu Chung");
             if (configInfo != null)
@@ -142,7 +142,7 @@ namespace VietnamWatches.Controllers
             }
             else
             {
-                ViewBag.ConfigInfo = "";
+                ViewBag.ConfigInfo = "Giới Thiệu Chung";
             }
             Config configEmail = configDAO.getRowByValue("Email");
             if (configEmail != null)
@@ -151,7 +151,7 @@ namespace VietnamWatches.Controllers
             }
             else
             {
-                ViewBag.ConfigEmail = "";
+                ViewBag.ConfigEmail = "Email";
             }
             return View("ConfigFooter");
         }
