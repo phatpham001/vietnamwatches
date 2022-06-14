@@ -118,13 +118,41 @@ namespace VietnamWatches.Controllers
         public ActionResult ConfigFooter()
         {
             Config configAddress = configDAO.getRowByValue("Địa Chỉ");
-            ViewBag.ConfigAddress = configAddress.Value;
+            if(configAddress!= null)
+            {
+                ViewBag.ConfigAddress = configAddress.Value;
+            }
+            else
+            {
+                ViewBag.ConfigAddress = "";
+            }
             Config configPhone = configDAO.getRowByValue("Số Điện Thoại");
-            ViewBag.ConfigPhone = configPhone.Value;
+            if (configPhone != null)
+            {
+                ViewBag.ConfigPhone = configPhone.Value;
+            }
+            else
+            {
+                ViewBag.ConfigPhone = "";
+            }
             Config configInfo = configDAO.getRowByValue("Giới Thiệu Chung");
-            ViewBag.ConfigInfo = configInfo.Value;
+            if (configInfo != null)
+            {
+                ViewBag.ConfigInfo = configInfo.Value;
+            }
+            else
+            {
+                ViewBag.ConfigInfo = "";
+            }
             Config configEmail = configDAO.getRowByValue("Email");
-            ViewBag.ConfigEmail = configEmail.Value;
+            if (configEmail != null)
+            {
+                ViewBag.ConfigEmail = configEmail.Value;
+            }
+            else
+            {
+                ViewBag.ConfigEmail = "";
+            }
             return View("ConfigFooter");
         }
     }
